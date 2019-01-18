@@ -1,0 +1,155 @@
+body {  
+  background-color: white;  
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-website {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: Center;
+  width: 100%;
+  height: 15vh;
+  background-color: #DCD0C0; 
+  padding: 10px 10px 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+header>a{
+  text-decoration: none;
+  align-items: center;
+  color: #373737;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+header>a:hover {
+  color: #a8a7a7;
+}
+
+.name {
+  justify-content: center;
+  display: flex;
+  color: #373737;
+  font-weight: 900;
+  font-size: 26pt;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.why {
+  display: flex;
+  flex-wrap: wrap;
+  color: #373737;
+  font-size: 16pt;
+  margin-bottom: 25px;
+  background-color: #C0b283;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.why>div {
+  font-size: 18pt;
+  font-weight: 900;
+  color: #373737;
+  margin-bottom: 10px;
+  }
+
+  .websites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    background-color: #373737;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+  
+  #websites>div{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: Center;
+    color: #DCD0C0;
+    font-size: 20pt;
+    font-weight: 900;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: #373737;  
+    height: 110px;
+    width: 225px;
+    background-color: White;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+  
+  .card:hover {
+    background-color: #C0b283;
+  }
+  
+  footer {
+    display: flex;
+    width: 100%;
+    height: 1vw;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #DCD0C0;
+    padding: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+@media only screen and (max-width: 730px){
+  .why{
+    font-size: 14pt;
+    }
+} 
+
+@media only screen and (max-width: 550px){
+  header {
+    margin-bottom: 0px;
+  }
+  .why{
+    font-size: 10pt;
+    margin-bottom: 0px;
+    }
+    .websites{
+      margin-bottom: 0px;
+    }
+  footer{
+    font-size: 8pt;
+    }
+  header>a{
+    display: none;
+    }
+} 
+
